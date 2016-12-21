@@ -1,0 +1,47 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v1.0",
+    "signature": "2b1be0dccbcc2077ebe23fff77127be539332c4f"
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v1.0": {
+      "CalculatorCore/1.0.0": {
+        "dependencies": {
+          "Antlr4": "4.5.3",
+          "Antlr4.Runtime": "4.5.3"
+        },
+        "runtime": {
+          "CalculatorCore.dll": {}
+        }
+      },
+      "Antlr4/4.5.3": {
+        "dependencies": {
+          "Antlr4.Runtime": "4.5.3"
+        }
+      },
+      "Antlr4.Runtime/4.5.3": {
+        "runtime": {
+          "lib/portable-net45+netcore45+wpa81+wp8+MonoAndroid1+MonoTouch1/Antlr4.Runtime.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CalculatorCore/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Antlr4/4.5.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-yqrZphYCjsvQWPcbFDTBoi1dEC5vpYdE5VyGoTlq3qH+TBEM1b2kSVKkMGG7OK9Ditjf0JjJajuHcufpxj3H8Q=="
+    },
+    "Antlr4.Runtime/4.5.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-LmBPKSi+sBH/FrXxZQwxrPhepN7L99BIQ8oZnnUMJWVoDdnuI5GRvLqsWow4nHenywc5pkiOWO3QGGs9vp03ig=="
+    }
+  }
+}
